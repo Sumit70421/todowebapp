@@ -1,0 +1,46 @@
+.index{
+    position: relative;
+    right: 19px;
+}
+.Card{
+    background-color: #2f2f2f;
+    width: 390px;
+    height: max-content;
+    color: #ffff;
+    margin: 25%;
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.8);
+    border-radius: 12px;
+}
+.checkedTask{
+    width: 365px;
+    height: max-content;
+    color: #ffff;
+    margin: 25%;
+    background-color: #202020;
+    border: 2px solid red;
+    border-radius: 12px;
+}
+.divLine{
+    background-color: #5c5c5c;
+}
+.Mark{
+    background-color: #c620a7;
+    padding: 2%;
+    color: #ffff;
+    border-radius: 9px;
+    width: 54%;
+    margin-bottom: 9px;
+    margin-left: 12px;
+}
+.Delete,.marked{
+    color: #Afafaf;
+    border: none;
+    background: none;
+    padding: 2%;
+    width: 40%;
+    height: 51px;
+}
+.title{
+    color: #ffff;
+    margin: 20px;
+}
