@@ -7,7 +7,7 @@ export default class App extends React.Component {
   constructor(){
     super()
     this.state = {
-      list : new Array (),
+      list : [],
       newInput : "",
       id : 51
     }
@@ -24,12 +24,12 @@ export default class App extends React.Component {
       
   }
   renderTodo(input){
-    let newTodo = new Object({
+    let newTodo = {
           "userId": 100001,
           "id": this.setState({id : this.state.id+1}),
           "title": input,
           "completed": false
-    })
+    }
     this.state.list.unshift(newTodo);
   }
   render() {
